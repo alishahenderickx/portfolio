@@ -589,6 +589,10 @@ footer {
     transition: background-color 0.3s;
     margin-bottom: 2rem; 
 }
+.container .col a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
 .container .col img {
     max-width: 100%;
     margin-bottom: -5px;
