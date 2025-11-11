@@ -236,6 +236,7 @@ main.contact {
     text-decoration: none;
     text-align: left;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .portfolio-item:hover .sneaky {
@@ -558,8 +559,14 @@ footer {
 }
 .container .col {
     flex: 1;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
     border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+div.col.left-align {
+    align-items: flex-start;
 }
 .container .col .sub-head {
     font-size: 1.2rem;
@@ -598,6 +605,7 @@ footer {
     max-width: 100%;
     margin-bottom: -5px;
     border: 0;
+    max-height: 480px;
 }
 .popup-overlay .close-popup {
     position: absolute;
@@ -622,6 +630,9 @@ a.link-text:hover {
 }
 .container .col p.more-info {
     font-size: 1rem;
+}
+img.phone {
+    margin-right: 50px;
 }
 /* Animation */
 @keyframes popupFade {
